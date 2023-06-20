@@ -7,7 +7,7 @@ function getRndInteger(min, max) {
 //Funzione per verificare se il numero è pari
 
 function isEven(number) {
-    return numero % 2 === 0;
+    return number % 2 === 0;
 }
 
 //Logica base del programma
@@ -24,7 +24,7 @@ if (userInput !== 'pari' && userInput !== 'dispari') { //Validazione input
     alert(`Il numero del computer è ${computerNumber}`);
 
     const sum = userNumber + computerNumber;
-    alert(`La somma dei due numeri è: ${somma}`);
+    alert(`La somma dei due numeri è: ${sum}`);
 
     let result;
     if (isEven(sum)) {
