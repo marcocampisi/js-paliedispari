@@ -5,3 +5,9 @@ function isPalindrome(word) {
 
 const inputWord = prompt('Inserisci una parola:');
 
+if (isPalindrome(inputWord)) {
+    alert('La parola inserita è palindroma')
+}
+else {
+    alert('La parola inserita non è palindroma')
+}
